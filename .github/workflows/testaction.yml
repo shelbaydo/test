@@ -12,13 +12,13 @@ jobs:
 
         steps:
 
-          - name:Checkout code
+          - name: Checkout code
 
           uses: actions/checkout@v2
 
-          -name:Run super-linter
+          -name: Run super-linter
 
-          uses:github/super-linter@v3
+          uses: github/super-linter@v3
 
           env:
 
